@@ -2,12 +2,16 @@
 //  MaskViewController.h
 //  LearnCoreAnimation
 //
-//  Created by Yunis on 2018/11/19.
-//  Copyright © 2018年 Yunis. All rights reserved.
+//  Created by Yunis on 2019/6/28.
+//  Copyright © 2019 Yunis. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface MaskViewController : UIViewController
 
 @end
+
+NS_ASSUME_NONNULL_END

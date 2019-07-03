@@ -12,9 +12,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LockViewController">
             <connections>
-                <outlet property="hour" destination="gM1-8n-2rU" id="yA1-rl-M5i"/>
-                <outlet property="minute" destination="1QB-AH-BeE" id="ZxV-WZ-sF3"/>
-                <outlet property="second" destination="v5J-79-M58" id="ou2-LH-8Zh"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -30,26 +27,15 @@
                         <constraint firstAttribute="width" secondItem="EMt-Nm-Kfg" secondAttribute="height" multiplier="1:1" id="MF5-iC-6be"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HourHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="gM1-8n-2rU">
-                    <rect key="frame" x="172.5" y="286.5" width="30" height="94"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="94" id="2YV-Nh-4cM"/>
-                        <constraint firstAttribute="width" constant="30" id="2j3-U0-WRk"/>
-                    </constraints>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HourHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="gM1-8n-2rU">
+                    <rect key="frame" x="140" y="238" width="52" height="75"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MinuteHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="1QB-AH-BeE">
-                    <rect key="frame" x="177.5" y="280.5" width="20" height="106"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="106" id="ocZ-ha-qPs"/>
-                        <constraint firstAttribute="width" constant="20" id="zqB-EK-8ha"/>
-                    </constraints>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MinuteHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="1QB-AH-BeE">
+                    <rect key="frame" x="150" y="248" width="52" height="75"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="v5J-79-M58">
                     <rect key="frame" x="183.5" y="282.5" width="8" height="102"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="102" id="5Bz-pL-OpG"/>
-                        <constraint firstAttribute="width" constant="8" id="Luv-Q5-Jhp"/>
-                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -58,10 +44,8 @@
                 <constraint firstItem="EMt-Nm-Kfg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Cba-KH-3cy"/>
                 <constraint firstItem="EMt-Nm-Kfg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PBW-yE-ZYj"/>
                 <constraint firstItem="1QB-AH-BeE" firstAttribute="centerX" secondItem="EMt-Nm-Kfg" secondAttribute="centerX" id="Sq7-W0-kya"/>
-                <constraint firstItem="gM1-8n-2rU" firstAttribute="centerY" secondItem="EMt-Nm-Kfg" secondAttribute="centerY" id="UcE-t1-N7X"/>
                 <constraint firstItem="v5J-79-M58" firstAttribute="centerY" secondItem="EMt-Nm-Kfg" secondAttribute="centerY" id="Vy6-tR-hLd"/>
                 <constraint firstItem="1QB-AH-BeE" firstAttribute="centerY" secondItem="EMt-Nm-Kfg" secondAttribute="centerY" id="dcq-oF-HA4"/>
-                <constraint firstItem="gM1-8n-2rU" firstAttribute="centerX" secondItem="EMt-Nm-Kfg" secondAttribute="centerX" id="nTW-yP-jVR"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="-199" y="34"/>

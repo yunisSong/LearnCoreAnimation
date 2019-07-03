@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Transform3DViewController">
+            <connections>
+                <outlet property="imageView1" destination="Nti-Hy-UCm" id="UZP-D2-EaR"/>
+                <outlet property="imageView2" destination="W3d-ha-7kd" id="MYW-yX-Z4u"/>
+                <outlet property="imageView3" destination="Srn-WZ-cC6" id="7Ai-7D-g1j"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="Nti-Hy-UCm">
+                    <rect key="frame" x="137.5" y="30" width="100" height="140"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="6yP-89-8ls"/>
+                        <constraint firstAttribute="width" constant="100" id="x67-Jq-dTZ"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="W3d-ha-7kd">
+                    <rect key="frame" x="137.5" y="185" width="100" height="140"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="Fnn-ce-ByJ"/>
+                        <constraint firstAttribute="width" constant="100" id="dPd-nf-GWC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snowman" translatesAutoresizingMaskIntoConstraints="NO" id="Srn-WZ-cC6">
+                    <rect key="frame" x="137.5" y="340" width="100" height="140"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="28o-mW-kw2"/>
+                        <constraint firstAttribute="width" constant="100" id="hOD-8Z-tNU"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Srn-WZ-cC6" firstAttribute="top" secondItem="W3d-ha-7kd" secondAttribute="bottom" constant="15" id="1JM-jf-eNk"/>
+                <constraint firstItem="W3d-ha-7kd" firstAttribute="top" secondItem="Nti-Hy-UCm" secondAttribute="bottom" constant="15" id="DSF-3D-8WT"/>
+                <constraint firstItem="Srn-WZ-cC6" firstAttribute="centerX" secondItem="W3d-ha-7kd" secondAttribute="centerX" id="Qc2-MM-jhZ"/>
+                <constraint firstItem="W3d-ha-7kd" firstAttribute="centerX" secondItem="Nti-Hy-UCm" secondAttribute="centerX" id="WMX-QB-W9y"/>
+                <constraint firstItem="Nti-Hy-UCm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WoK-vy-CFm"/>
+                <constraint firstItem="Nti-Hy-UCm" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="uhI-Uw-MT0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Snowman" width="200" height="280"/>
+    </resources>
+</document>

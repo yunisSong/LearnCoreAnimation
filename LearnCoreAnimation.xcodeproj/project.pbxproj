@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B44DF8A21A296A20096BFD5 /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B44DF8921A296A20096BFD5 /* MaskViewController.m */; };
 		8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED322C4ADC70072649D /* RootViewViewController.m */; };
 		8B801EDA22C4B2430072649D /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED822C4B2430072649D /* LockViewController.m */; };
 		8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B801ED922C4B2430072649D /* LockViewController.xib */; };
@@ -17,6 +16,28 @@
 		8B8020BF22C5A33D0072649D /* RadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020BD22C5A33D0072649D /* RadiusViewController.xib */; };
 		8B8020C322C5A5480072649D /* BorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020C122C5A5480072649D /* BorderViewController.m */; };
 		8B8020C422C5A5480072649D /* BorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020C222C5A5480072649D /* BorderViewController.xib */; };
+		8B8020C822C5F46D0072649D /* MaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020C622C5F46D0072649D /* MaskViewController.m */; };
+		8B8020C922C5F46D0072649D /* MaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020C722C5F46D0072649D /* MaskViewController.xib */; };
+		8B8020CD22C994200072649D /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020CB22C994200072649D /* FilterViewController.m */; };
+		8B8020CE22C994200072649D /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020CC22C994200072649D /* FilterViewController.xib */; };
+		8B8020D222C99DEE0072649D /* OpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020D022C99DEE0072649D /* OpacityViewController.m */; };
+		8B8020D822C9E2610072649D /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020D622C9E2610072649D /* TransformViewController.m */; };
+		8B8020D922C9E2610072649D /* TransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020D722C9E2610072649D /* TransformViewController.xib */; };
+		8B8020DD22C9EB8D0072649D /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020DB22C9EB8D0072649D /* Transform3DViewController.m */; };
+		8B8020DE22C9EB8D0072649D /* Transform3DViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020DC22C9EB8D0072649D /* Transform3DViewController.xib */; };
+		8B8020E222C9F5600072649D /* TransformFacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020E022C9F5600072649D /* TransformFacesViewController.m */; };
+		8B8020E322C9F5600072649D /* TransformFacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020E122C9F5600072649D /* TransformFacesViewController.xib */; };
+		8B8020E822CA041B0072649D /* CAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020E622CA041B0072649D /* CAShapeLayerViewController.m */; };
+		8B8020E922CA041B0072649D /* CAShapeLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020E722CA041B0072649D /* CAShapeLayerViewController.xib */; };
+		8B8020ED22CAE9EF0072649D /* CATextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020EB22CAE9EF0072649D /* CATextLayerViewController.m */; };
+		8B8020EE22CAE9EF0072649D /* CATextLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020EC22CAE9EF0072649D /* CATextLayerViewController.xib */; };
+		8B8020F222CB06520072649D /* CATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020F022CB06520072649D /* CATransformLayerViewController.m */; };
+		8B8020F322CB06520072649D /* CATransformLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020F122CB06520072649D /* CATransformLayerViewController.xib */; };
+		8B8020F722CB49030072649D /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020F522CB49020072649D /* CAGradientLayerViewController.m */; };
+		8B8020F822CB49030072649D /* CAGradientLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020F622CB49020072649D /* CAGradientLayerViewController.xib */; };
+		8B8020FC22CB52ED0072649D /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020FA22CB52EC0072649D /* CAReplicatorLayerViewController.m */; };
+		8B8020FD22CB52ED0072649D /* CAReplicatorLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8020FB22CB52EC0072649D /* CAReplicatorLayerViewController.xib */; };
+		8B80210022CB58E80072649D /* CAReplicatorLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8020FF22CB58E80072649D /* CAReplicatorLayerView.m */; };
 		8B8F7DC4215F67A600628A9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F7DC3215F67A600628A9B /* AppDelegate.m */; };
 		8B8F7DC7215F67A600628A9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F7DC6215F67A600628A9B /* ViewController.m */; };
 		8B8F7DCA215F67A600628A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8F7DC8215F67A600628A9B /* Main.storyboard */; };
@@ -27,8 +48,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B44DF8821A296A20096BFD5 /* MaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
-		8B44DF8921A296A20096BFD5 /* MaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
 		8B801ED222C4ADC70072649D /* RootViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewViewController.h; sourceTree = "<group>"; };
 		8B801ED322C4ADC70072649D /* RootViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewViewController.m; sourceTree = "<group>"; };
 		8B801ED722C4B2430072649D /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
@@ -43,6 +62,40 @@
 		8B8020C022C5A5480072649D /* BorderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorderViewController.h; sourceTree = "<group>"; };
 		8B8020C122C5A5480072649D /* BorderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorderViewController.m; sourceTree = "<group>"; };
 		8B8020C222C5A5480072649D /* BorderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BorderViewController.xib; sourceTree = "<group>"; };
+		8B8020C522C5F46C0072649D /* MaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaskViewController.h; sourceTree = "<group>"; };
+		8B8020C622C5F46D0072649D /* MaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaskViewController.m; sourceTree = "<group>"; };
+		8B8020C722C5F46D0072649D /* MaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaskViewController.xib; sourceTree = "<group>"; };
+		8B8020CA22C994200072649D /* FilterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		8B8020CB22C994200072649D /* FilterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		8B8020CC22C994200072649D /* FilterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		8B8020CF22C99DEE0072649D /* OpacityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpacityViewController.h; sourceTree = "<group>"; };
+		8B8020D022C99DEE0072649D /* OpacityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpacityViewController.m; sourceTree = "<group>"; };
+		8B8020D522C9E2610072649D /* TransformViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		8B8020D622C9E2610072649D /* TransformViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		8B8020D722C9E2610072649D /* TransformViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformViewController.xib; sourceTree = "<group>"; };
+		8B8020DA22C9EB8D0072649D /* Transform3DViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
+		8B8020DB22C9EB8D0072649D /* Transform3DViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
+		8B8020DC22C9EB8D0072649D /* Transform3DViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transform3DViewController.xib; sourceTree = "<group>"; };
+		8B8020DF22C9F5600072649D /* TransformFacesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformFacesViewController.h; sourceTree = "<group>"; };
+		8B8020E022C9F5600072649D /* TransformFacesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformFacesViewController.m; sourceTree = "<group>"; };
+		8B8020E122C9F5600072649D /* TransformFacesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransformFacesViewController.xib; sourceTree = "<group>"; };
+		8B8020E522CA041B0072649D /* CAShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerViewController.h; sourceTree = "<group>"; };
+		8B8020E622CA041B0072649D /* CAShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerViewController.m; sourceTree = "<group>"; };
+		8B8020E722CA041B0072649D /* CAShapeLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAShapeLayerViewController.xib; sourceTree = "<group>"; };
+		8B8020EA22CAE9EF0072649D /* CATextLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATextLayerViewController.h; sourceTree = "<group>"; };
+		8B8020EB22CAE9EF0072649D /* CATextLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATextLayerViewController.m; sourceTree = "<group>"; };
+		8B8020EC22CAE9EF0072649D /* CATextLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATextLayerViewController.xib; sourceTree = "<group>"; };
+		8B8020EF22CB06520072649D /* CATransformLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransformLayerViewController.h; sourceTree = "<group>"; };
+		8B8020F022CB06520072649D /* CATransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerViewController.m; sourceTree = "<group>"; };
+		8B8020F122CB06520072649D /* CATransformLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATransformLayerViewController.xib; sourceTree = "<group>"; };
+		8B8020F422CB49020072649D /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		8B8020F522CB49020072649D /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		8B8020F622CB49020072649D /* CAGradientLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAGradientLayerViewController.xib; sourceTree = "<group>"; };
+		8B8020F922CB52EC0072649D /* CAReplicatorLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		8B8020FA22CB52EC0072649D /* CAReplicatorLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		8B8020FB22CB52EC0072649D /* CAReplicatorLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAReplicatorLayerViewController.xib; sourceTree = "<group>"; };
+		8B8020FE22CB58E80072649D /* CAReplicatorLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorLayerView.h; sourceTree = "<group>"; };
+		8B8020FF22CB58E80072649D /* CAReplicatorLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorLayerView.m; sourceTree = "<group>"; };
 		8B8F7DBF215F67A600628A9B /* LearnCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8F7DC2215F67A600628A9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B8F7DC3215F67A600628A9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,8 +152,56 @@
 				8B8020C022C5A5480072649D /* BorderViewController.h */,
 				8B8020C122C5A5480072649D /* BorderViewController.m */,
 				8B8020C222C5A5480072649D /* BorderViewController.xib */,
+				8B8020C522C5F46C0072649D /* MaskViewController.h */,
+				8B8020C622C5F46D0072649D /* MaskViewController.m */,
+				8B8020C722C5F46D0072649D /* MaskViewController.xib */,
+				8B8020CA22C994200072649D /* FilterViewController.h */,
+				8B8020CB22C994200072649D /* FilterViewController.m */,
+				8B8020CC22C994200072649D /* FilterViewController.xib */,
+				8B8020CF22C99DEE0072649D /* OpacityViewController.h */,
+				8B8020D022C99DEE0072649D /* OpacityViewController.m */,
 			);
 			path = "视觉效果";
+			sourceTree = "<group>";
+		};
+		8B8020D422C9E2430072649D /* 变换 */ = {
+			isa = PBXGroup;
+			children = (
+				8B8020D522C9E2610072649D /* TransformViewController.h */,
+				8B8020D622C9E2610072649D /* TransformViewController.m */,
+				8B8020D722C9E2610072649D /* TransformViewController.xib */,
+				8B8020DA22C9EB8D0072649D /* Transform3DViewController.h */,
+				8B8020DB22C9EB8D0072649D /* Transform3DViewController.m */,
+				8B8020DC22C9EB8D0072649D /* Transform3DViewController.xib */,
+				8B8020DF22C9F5600072649D /* TransformFacesViewController.h */,
+				8B8020E022C9F5600072649D /* TransformFacesViewController.m */,
+				8B8020E122C9F5600072649D /* TransformFacesViewController.xib */,
+			);
+			path = "变换";
+			sourceTree = "<group>";
+		};
+		8B8020E422CA03DF0072649D /* 专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				8B8020E522CA041B0072649D /* CAShapeLayerViewController.h */,
+				8B8020E622CA041B0072649D /* CAShapeLayerViewController.m */,
+				8B8020E722CA041B0072649D /* CAShapeLayerViewController.xib */,
+				8B8020EA22CAE9EF0072649D /* CATextLayerViewController.h */,
+				8B8020EB22CAE9EF0072649D /* CATextLayerViewController.m */,
+				8B8020EC22CAE9EF0072649D /* CATextLayerViewController.xib */,
+				8B8020EF22CB06520072649D /* CATransformLayerViewController.h */,
+				8B8020F022CB06520072649D /* CATransformLayerViewController.m */,
+				8B8020F122CB06520072649D /* CATransformLayerViewController.xib */,
+				8B8020F422CB49020072649D /* CAGradientLayerViewController.h */,
+				8B8020F522CB49020072649D /* CAGradientLayerViewController.m */,
+				8B8020F622CB49020072649D /* CAGradientLayerViewController.xib */,
+				8B8020F922CB52EC0072649D /* CAReplicatorLayerViewController.h */,
+				8B8020FA22CB52EC0072649D /* CAReplicatorLayerViewController.m */,
+				8B8020FB22CB52EC0072649D /* CAReplicatorLayerViewController.xib */,
+				8B8020FE22CB58E80072649D /* CAReplicatorLayerView.h */,
+				8B8020FF22CB58E80072649D /* CAReplicatorLayerView.m */,
+			);
+			path = "专用图层";
 			sourceTree = "<group>";
 		};
 		8B8F7DB6215F67A600628A9B = {
@@ -123,17 +224,17 @@
 		8B8F7DC1215F67A600628A9B /* LearnCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				8B8F7DCB215F67A600628A9B /* Assets.xcassets */,
 				8B8F7DC2215F67A600628A9B /* AppDelegate.h */,
 				8B8F7DC3215F67A600628A9B /* AppDelegate.m */,
+				8B801ED222C4ADC70072649D /* RootViewViewController.h */,
+				8B801ED322C4ADC70072649D /* RootViewViewController.m */,
 				8B801ED522C4AFC70072649D /* 寄宿图 */,
 				8B801ED622C4B2230072649D /* 图层几何学 */,
 				8B8020BA22C599B90072649D /* 视觉效果 */,
-				8B801ED222C4ADC70072649D /* RootViewViewController.h */,
-				8B801ED322C4ADC70072649D /* RootViewViewController.m */,
-				8B44DF8821A296A20096BFD5 /* MaskViewController.h */,
-				8B44DF8921A296A20096BFD5 /* MaskViewController.m */,
+				8B8020D422C9E2430072649D /* 变换 */,
+				8B8020E422CA03DF0072649D /* 专用图层 */,
 				8B8F7DC8215F67A600628A9B /* Main.storyboard */,
-				8B8F7DCB215F67A600628A9B /* Assets.xcassets */,
 				8B8F7DCD215F67A600628A9B /* LaunchScreen.storyboard */,
 				8B8F7DD0215F67A600628A9B /* Info.plist */,
 				8B8F7DD1215F67A600628A9B /* main.m */,
@@ -206,12 +307,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8020F822CB49030072649D /* CAGradientLayerViewController.xib in Resources */,
+				8B8020E322C9F5600072649D /* TransformFacesViewController.xib in Resources */,
+				8B8020EE22CAE9EF0072649D /* CATextLayerViewController.xib in Resources */,
 				8B8020BF22C5A33D0072649D /* RadiusViewController.xib in Resources */,
+				8B8020D922C9E2610072649D /* TransformViewController.xib in Resources */,
+				8B8020FD22CB52ED0072649D /* CAReplicatorLayerViewController.xib in Resources */,
+				8B8020F322CB06520072649D /* CATransformLayerViewController.xib in Resources */,
 				8B8020B922C4BCF50072649D /* HitTestViewController.xib in Resources */,
+				8B8020E922CA041B0072649D /* CAShapeLayerViewController.xib in Resources */,
+				8B8020C922C5F46D0072649D /* MaskViewController.xib in Resources */,
 				8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */,
 				8B8F7DCF215F67A600628A9B /* LaunchScreen.storyboard in Resources */,
+				8B8020DE22C9EB8D0072649D /* Transform3DViewController.xib in Resources */,
 				8B8F7DCC215F67A600628A9B /* Assets.xcassets in Resources */,
 				8B8F7DCA215F67A600628A9B /* Main.storyboard in Resources */,
+				8B8020CE22C994200072649D /* FilterViewController.xib in Resources */,
 				8B8020C422C5A5480072649D /* BorderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,15 +334,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8020C822C5F46D0072649D /* MaskViewController.m in Sources */,
+				8B8020FC22CB52ED0072649D /* CAReplicatorLayerViewController.m in Sources */,
+				8B8020F222CB06520072649D /* CATransformLayerViewController.m in Sources */,
 				8B8020BE22C5A33D0072649D /* RadiusViewController.m in Sources */,
+				8B8020CD22C994200072649D /* FilterViewController.m in Sources */,
+				8B8020DD22C9EB8D0072649D /* Transform3DViewController.m in Sources */,
+				8B8020D822C9E2610072649D /* TransformViewController.m in Sources */,
+				8B8020E822CA041B0072649D /* CAShapeLayerViewController.m in Sources */,
 				8B8020B822C4BCF50072649D /* HitTestViewController.m in Sources */,
 				8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */,
 				8B801EDA22C4B2430072649D /* LockViewController.m in Sources */,
+				8B80210022CB58E80072649D /* CAReplicatorLayerView.m in Sources */,
 				8B8F7DC7215F67A600628A9B /* ViewController.m in Sources */,
 				8B8F7DD2215F67A600628A9B /* main.m in Sources */,
-				8B44DF8A21A296A20096BFD5 /* MaskViewController.m in Sources */,
+				8B8020ED22CAE9EF0072649D /* CATextLayerViewController.m in Sources */,
 				8B8F7DC4215F67A600628A9B /* AppDelegate.m in Sources */,
 				8B8020C322C5A5480072649D /* BorderViewController.m in Sources */,
+				8B8020E222C9F5600072649D /* TransformFacesViewController.m in Sources */,
+				8B8020F722CB49030072649D /* CAGradientLayerViewController.m in Sources */,
+				8B8020D222C99DEE0072649D /* OpacityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

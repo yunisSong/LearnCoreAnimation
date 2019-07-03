@@ -9,6 +9,9 @@
 #import "BorderViewController.h"
 
 @interface BorderViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *upView;
+@property (weak, nonatomic) IBOutlet UIImageView *bottomView;
+@property (weak, nonatomic) IBOutlet UIImageView *cenTerView;
 
 @end
 
@@ -17,6 +20,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.upView.backgroundColor = [UIColor clearColor];
+    self.upView.layer.shadowOpacity = 0.5f;
+    self.cenTerView.layer.shadowOpacity = 0.5f;
+    self.bottomView.layer.shadowOpacity = 0.5f;
+
+    CGMutablePathRef squarePath = CGPathCreateMutable();
+    CGPathAddRect(squarePath, NULL, self.upView.bounds);
+    self.upView.layer.shadowPath = squarePath;
+    
+    CGMutablePathRef circlePath = CGPathCreateMutable();
+    CGPathAddEllipseInRect(circlePath, NULL, self.cenTerView.bounds);
+    self.cenTerView.layer.shadowPath = circlePath;
+    
+    
+    
+    
 }
 
 /*

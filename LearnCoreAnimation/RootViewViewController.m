@@ -63,8 +63,20 @@
                              @{@"title":@"寄宿图",@"class":@"ViewController"},
                              @{@"title":@"图形几何学-anchorPoint",@"class":@"LockViewController"},
                              @{@"title":@"图形几何学-hit",@"class":@"HitTestViewController"},
-                             @{@"title":@"视觉效果-圆角",@"class":@"RadiusViewController"},
-                             @{@"title":@"视觉效果-边框",@"class":@"BorderViewController"},
+                             @{@"title":@"视觉效果-圆角、边框、阴影",@"class":@"RadiusViewController"},
+                             @{@"title":@"视觉效果-shadowPath",@"class":@"BorderViewController"},
+                             @{@"title":@"视觉效果-图层蒙版",@"class":@"MaskViewController"},
+                             @{@"title":@"视觉效果-拉伸过滤",@"class":@"FilterViewController"},
+                             @{@"title":@"视觉效果-组透明",@"class":@"OpacityViewController"},
+                             @{@"title":@"变换-仿射变换",@"class":@"TransformViewController"},
+                             @{@"title":@"变换-3D变换",@"class":@"Transform3DViewController"},
+                             @{@"title":@"变换-固体对象",@"class":@"TransformFacesViewController"},
+                             @{@"title":@"专用图层-CAShapeLayer",@"class":@"CAShapeLayerViewController"},
+                             @{@"title":@"专用图层-CATextLayer",@"class":@"CATextLayerViewController"},
+                             @{@"title":@"专用图层-CATransformLayer",@"class":@"CATransformLayerViewController"},
+                             @{@"title":@"专用图层-CAGradientLayer",@"class":@"CAGradientLayerViewController"},
+                             @{@"title":@"专用图层-CAReplicatorLayer",@"class":@"CAReplicatorLayerViewController"},
+
 
         
                              ];
