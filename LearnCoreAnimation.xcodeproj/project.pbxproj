@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B10CFE722CC93E400D92300 /* CAScrollLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFE522CC93E400D92300 /* CAScrollLayerViewController.m */; };
+		8B10CFE822CC93E400D92300 /* CAScrollLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFE622CC93E400D92300 /* CAScrollLayerViewController.xib */; };
+		8B10CFEB22CC940200D92300 /* CAScrollLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFEA22CC940200D92300 /* CAScrollLayerView.m */; };
+		8B10CFEF22CC9BEA00D92300 /* CATiledLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFED22CC9BEA00D92300 /* CATiledLayerViewController.m */; };
+		8B10CFF022CC9BEA00D92300 /* CATiledLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */; };
 		8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED322C4ADC70072649D /* RootViewViewController.m */; };
 		8B801EDA22C4B2430072649D /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED822C4B2430072649D /* LockViewController.m */; };
 		8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B801ED922C4B2430072649D /* LockViewController.xib */; };
@@ -48,6 +53,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B10CFE422CC93E400D92300 /* CAScrollLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerViewController.h; sourceTree = "<group>"; };
+		8B10CFE522CC93E400D92300 /* CAScrollLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAScrollLayerViewController.m; sourceTree = "<group>"; };
+		8B10CFE622CC93E400D92300 /* CAScrollLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAScrollLayerViewController.xib; sourceTree = "<group>"; };
+		8B10CFE922CC940200D92300 /* CAScrollLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerView.h; sourceTree = "<group>"; };
+		8B10CFEA22CC940200D92300 /* CAScrollLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAScrollLayerView.m; sourceTree = "<group>"; };
+		8B10CFEC22CC9BEA00D92300 /* CATiledLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATiledLayerViewController.h; sourceTree = "<group>"; };
+		8B10CFED22CC9BEA00D92300 /* CATiledLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerViewController.m; sourceTree = "<group>"; };
+		8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATiledLayerViewController.xib; sourceTree = "<group>"; };
 		8B801ED222C4ADC70072649D /* RootViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewViewController.h; sourceTree = "<group>"; };
 		8B801ED322C4ADC70072649D /* RootViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewViewController.m; sourceTree = "<group>"; };
 		8B801ED722C4B2430072649D /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
@@ -200,6 +213,14 @@
 				8B8020FB22CB52EC0072649D /* CAReplicatorLayerViewController.xib */,
 				8B8020FE22CB58E80072649D /* CAReplicatorLayerView.h */,
 				8B8020FF22CB58E80072649D /* CAReplicatorLayerView.m */,
+				8B10CFE422CC93E400D92300 /* CAScrollLayerViewController.h */,
+				8B10CFE522CC93E400D92300 /* CAScrollLayerViewController.m */,
+				8B10CFE622CC93E400D92300 /* CAScrollLayerViewController.xib */,
+				8B10CFE922CC940200D92300 /* CAScrollLayerView.h */,
+				8B10CFEA22CC940200D92300 /* CAScrollLayerView.m */,
+				8B10CFEC22CC9BEA00D92300 /* CATiledLayerViewController.h */,
+				8B10CFED22CC9BEA00D92300 /* CATiledLayerViewController.m */,
+				8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -308,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8020F822CB49030072649D /* CAGradientLayerViewController.xib in Resources */,
+				8B10CFE822CC93E400D92300 /* CAScrollLayerViewController.xib in Resources */,
+				8B10CFF022CC9BEA00D92300 /* CATiledLayerViewController.xib in Resources */,
 				8B8020E322C9F5600072649D /* TransformFacesViewController.xib in Resources */,
 				8B8020EE22CAE9EF0072649D /* CATextLayerViewController.xib in Resources */,
 				8B8020BF22C5A33D0072649D /* RadiusViewController.xib in Resources */,
@@ -337,11 +360,14 @@
 				8B8020C822C5F46D0072649D /* MaskViewController.m in Sources */,
 				8B8020FC22CB52ED0072649D /* CAReplicatorLayerViewController.m in Sources */,
 				8B8020F222CB06520072649D /* CATransformLayerViewController.m in Sources */,
+				8B10CFEB22CC940200D92300 /* CAScrollLayerView.m in Sources */,
 				8B8020BE22C5A33D0072649D /* RadiusViewController.m in Sources */,
 				8B8020CD22C994200072649D /* FilterViewController.m in Sources */,
 				8B8020DD22C9EB8D0072649D /* Transform3DViewController.m in Sources */,
+				8B10CFE722CC93E400D92300 /* CAScrollLayerViewController.m in Sources */,
 				8B8020D822C9E2610072649D /* TransformViewController.m in Sources */,
 				8B8020E822CA041B0072649D /* CAShapeLayerViewController.m in Sources */,
+				8B10CFEF22CC9BEA00D92300 /* CATiledLayerViewController.m in Sources */,
 				8B8020B822C4BCF50072649D /* HitTestViewController.m in Sources */,
 				8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */,
 				8B801EDA22C4B2430072649D /* LockViewController.m in Sources */,
@@ -494,15 +520,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8WJECGX48J;
 				INFOPLIST_FILE = LearnCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunis.demo.LearnCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Any ID can be used";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -512,15 +539,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8WJECGX48J;
 				INFOPLIST_FILE = LearnCoreAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yunis.demo.LearnCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Any ID can be used";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

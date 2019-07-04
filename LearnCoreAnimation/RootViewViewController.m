@@ -76,6 +76,8 @@
                              @{@"title":@"专用图层-CATransformLayer",@"class":@"CATransformLayerViewController"},
                              @{@"title":@"专用图层-CAGradientLayer",@"class":@"CAGradientLayerViewController"},
                              @{@"title":@"专用图层-CAReplicatorLayer",@"class":@"CAReplicatorLayerViewController"},
+                             @{@"title":@"专用图层-CAScrollLayer",@"class":@"CAScrollLayerViewController"},
+                             @{@"title":@"专用图层-CATiledLayer",@"class":@"CATiledLayerViewController"},
 
 
         

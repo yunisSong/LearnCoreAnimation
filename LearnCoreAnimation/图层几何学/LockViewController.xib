@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LockViewController">
             <connections>
+                <outlet property="hour" destination="gM1-8n-2rU" id="Z1b-SA-jle"/>
+                <outlet property="minute" destination="1QB-AH-BeE" id="DqR-aP-RVU"/>
+                <outlet property="second" destination="v5J-79-M58" id="eXZ-3T-9Dq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,21 +23,20 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClockFace.png" translatesAutoresizingMaskIntoConstraints="NO" id="EMt-Nm-Kfg">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ClockFace" translatesAutoresizingMaskIntoConstraints="NO" id="EMt-Nm-Kfg">
                     <rect key="frame" x="59.5" y="205.5" width="256" height="256"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="256" id="LSF-x5-Abz"/>
                         <constraint firstAttribute="width" secondItem="EMt-Nm-Kfg" secondAttribute="height" multiplier="1:1" id="MF5-iC-6be"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HourHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="gM1-8n-2rU">
-                    <rect key="frame" x="140" y="238" width="52" height="75"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HourHand" translatesAutoresizingMaskIntoConstraints="NO" id="gM1-8n-2rU">
+                    <rect key="frame" x="172.5" y="286.5" width="30" height="94"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="MinuteHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="1QB-AH-BeE">
-                    <rect key="frame" x="150" y="248" width="52" height="75"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MinuteHand" translatesAutoresizingMaskIntoConstraints="NO" id="1QB-AH-BeE">
+                    <rect key="frame" x="177.5" y="280.5" width="20" height="106"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondHand.png" translatesAutoresizingMaskIntoConstraints="NO" id="v5J-79-M58">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondHand" translatesAutoresizingMaskIntoConstraints="NO" id="v5J-79-M58">
                     <rect key="frame" x="183.5" y="282.5" width="8" height="102"/>
                 </imageView>
             </subviews>
@@ -42,19 +44,21 @@
             <constraints>
                 <constraint firstItem="v5J-79-M58" firstAttribute="centerX" secondItem="EMt-Nm-Kfg" secondAttribute="centerX" id="2Yz-7e-fRT"/>
                 <constraint firstItem="EMt-Nm-Kfg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Cba-KH-3cy"/>
+                <constraint firstItem="gM1-8n-2rU" firstAttribute="centerX" secondItem="EMt-Nm-Kfg" secondAttribute="centerX" id="HKw-G2-RzJ"/>
                 <constraint firstItem="EMt-Nm-Kfg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PBW-yE-ZYj"/>
                 <constraint firstItem="1QB-AH-BeE" firstAttribute="centerX" secondItem="EMt-Nm-Kfg" secondAttribute="centerX" id="Sq7-W0-kya"/>
                 <constraint firstItem="v5J-79-M58" firstAttribute="centerY" secondItem="EMt-Nm-Kfg" secondAttribute="centerY" id="Vy6-tR-hLd"/>
                 <constraint firstItem="1QB-AH-BeE" firstAttribute="centerY" secondItem="EMt-Nm-Kfg" secondAttribute="centerY" id="dcq-oF-HA4"/>
+                <constraint firstItem="gM1-8n-2rU" firstAttribute="centerY" secondItem="EMt-Nm-Kfg" secondAttribute="centerY" id="rMj-Zk-sbn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="-199" y="34"/>
         </view>
     </objects>
     <resources>
-        <image name="ClockFace.png" width="256" height="256"/>
-        <image name="HourHand.png" width="30" height="94"/>
-        <image name="MinuteHand.png" width="20" height="106"/>
-        <image name="SecondHand.png" width="8" height="102"/>
+        <image name="ClockFace" width="256" height="256"/>
+        <image name="HourHand" width="30" height="94"/>
+        <image name="MinuteHand" width="20" height="106"/>
+        <image name="SecondHand" width="8" height="102"/>
     </resources>
 </document>
