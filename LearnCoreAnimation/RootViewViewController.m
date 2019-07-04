@@ -78,6 +78,7 @@
                              @{@"title":@"专用图层-CAReplicatorLayer",@"class":@"CAReplicatorLayerViewController"},
                              @{@"title":@"专用图层-CAScrollLayer",@"class":@"CAScrollLayerViewController"},
                              @{@"title":@"专用图层-CATiledLayer",@"class":@"CATiledLayerViewController"},
+                             @{@"title":@"专用图层-CAEmitterLayer",@"class":@"CAEmitterLayerViewController"},
 
 
         

@@ -8,7 +8,8 @@
 
 #import "CATiledLayerViewController.h"
 
-@interface CATiledLayerViewController ()
+@interface CATiledLayerViewController ()<CALayerDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollowView;
 
 @end
 
@@ -17,16 +18,30 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    CATiledLayer *tileLayer = [CATiledLayer layer];
+    tileLayer.frame = CGRectMake(0, 0, 2018, 2048);
+    tileLayer.delegate = self;
+    [self.scrollowView.layer addSublayer:tileLayer];
+
+    self.scrollowView.contentSize = tileLayer.frame.size;
+    [tileLayer setNeedsDisplay];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)drawLayer:(CATiledLayer *)layer inContext:(CGContextRef)ctx
+{
+    CGRect bounds = CGContextGetClipBoundingBox(ctx);
+    int x = floor(bounds.origin.x/ layer.tileSize.width);
+    int y = floor(bounds.origin.y / layer.tileSize.height);
+    
+    NSString *imageName = [NSString stringWithFormat:@" Snowman_%02i_%02i",x,y];
+    NSLog(@"imageName == %@",imageName);
+    UIImage *tileImage = [UIImage imageNamed:imageName];
+    
+    UIGraphicsPushContext(ctx);
+    [tileImage drawInRect:bounds];
+    UIGraphicsPopContext();
 }
-*/
+
 
 @end

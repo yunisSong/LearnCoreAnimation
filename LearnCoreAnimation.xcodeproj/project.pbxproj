@@ -12,6 +12,8 @@
 		8B10CFEB22CC940200D92300 /* CAScrollLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFEA22CC940200D92300 /* CAScrollLayerView.m */; };
 		8B10CFEF22CC9BEA00D92300 /* CATiledLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFED22CC9BEA00D92300 /* CATiledLayerViewController.m */; };
 		8B10CFF022CC9BEA00D92300 /* CATiledLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */; };
+		8B10CFF422CDDFB600D92300 /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFF222CDDFB600D92300 /* CAEmitterLayerViewController.m */; };
+		8B10CFF522CDDFB600D92300 /* CAEmitterLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFF322CDDFB600D92300 /* CAEmitterLayerViewController.xib */; };
 		8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED322C4ADC70072649D /* RootViewViewController.m */; };
 		8B801EDA22C4B2430072649D /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED822C4B2430072649D /* LockViewController.m */; };
 		8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B801ED922C4B2430072649D /* LockViewController.xib */; };
@@ -61,6 +63,9 @@
 		8B10CFEC22CC9BEA00D92300 /* CATiledLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATiledLayerViewController.h; sourceTree = "<group>"; };
 		8B10CFED22CC9BEA00D92300 /* CATiledLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerViewController.m; sourceTree = "<group>"; };
 		8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATiledLayerViewController.xib; sourceTree = "<group>"; };
+		8B10CFF122CDDFB600D92300 /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
+		8B10CFF222CDDFB600D92300 /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
+		8B10CFF322CDDFB600D92300 /* CAEmitterLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAEmitterLayerViewController.xib; sourceTree = "<group>"; };
 		8B801ED222C4ADC70072649D /* RootViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewViewController.h; sourceTree = "<group>"; };
 		8B801ED322C4ADC70072649D /* RootViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewViewController.m; sourceTree = "<group>"; };
 		8B801ED722C4B2430072649D /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
@@ -221,6 +226,9 @@
 				8B10CFEC22CC9BEA00D92300 /* CATiledLayerViewController.h */,
 				8B10CFED22CC9BEA00D92300 /* CATiledLayerViewController.m */,
 				8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */,
+				8B10CFF122CDDFB600D92300 /* CAEmitterLayerViewController.h */,
+				8B10CFF222CDDFB600D92300 /* CAEmitterLayerViewController.m */,
+				8B10CFF322CDDFB600D92300 /* CAEmitterLayerViewController.xib */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -342,6 +350,7 @@
 				8B8020C922C5F46D0072649D /* MaskViewController.xib in Resources */,
 				8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */,
 				8B8F7DCF215F67A600628A9B /* LaunchScreen.storyboard in Resources */,
+				8B10CFF522CDDFB600D92300 /* CAEmitterLayerViewController.xib in Resources */,
 				8B8020DE22C9EB8D0072649D /* Transform3DViewController.xib in Resources */,
 				8B8F7DCC215F67A600628A9B /* Assets.xcassets in Resources */,
 				8B8F7DCA215F67A600628A9B /* Main.storyboard in Resources */,
@@ -368,6 +377,7 @@
 				8B8020D822C9E2610072649D /* TransformViewController.m in Sources */,
 				8B8020E822CA041B0072649D /* CAShapeLayerViewController.m in Sources */,
 				8B10CFEF22CC9BEA00D92300 /* CATiledLayerViewController.m in Sources */,
+				8B10CFF422CDDFB600D92300 /* CAEmitterLayerViewController.m in Sources */,
 				8B8020B822C4BCF50072649D /* HitTestViewController.m in Sources */,
 				8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */,
 				8B801EDA22C4B2430072649D /* LockViewController.m in Sources */,
