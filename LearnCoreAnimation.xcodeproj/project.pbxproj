@@ -14,6 +14,8 @@
 		8B10CFF022CC9BEA00D92300 /* CATiledLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFEE22CC9BEA00D92300 /* CATiledLayerViewController.xib */; };
 		8B10CFF422CDDFB600D92300 /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFF222CDDFB600D92300 /* CAEmitterLayerViewController.m */; };
 		8B10CFF522CDDFB600D92300 /* CAEmitterLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFF322CDDFB600D92300 /* CAEmitterLayerViewController.xib */; };
+		8B10CFFB22CDF1DB00D92300 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B10CFF922CDF1DB00D92300 /* AnimationViewController.m */; };
+		8B10CFFC22CDF1DB00D92300 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B10CFFA22CDF1DB00D92300 /* AnimationViewController.xib */; };
 		8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED322C4ADC70072649D /* RootViewViewController.m */; };
 		8B801EDA22C4B2430072649D /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B801ED822C4B2430072649D /* LockViewController.m */; };
 		8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B801ED922C4B2430072649D /* LockViewController.xib */; };
@@ -52,6 +54,16 @@
 		8B8F7DCF215F67A600628A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8F7DCD215F67A600628A9B /* LaunchScreen.storyboard */; };
 		8B8F7DD2215F67A600628A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F7DD1215F67A600628A9B /* main.m */; };
 		8B8F7DDA215F67EE00628A9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F7DD9215F67EE00628A9B /* QuartzCore.framework */; };
+		8BA8BD4E22D331BA0033F2E1 /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD4C22D331BA0033F2E1 /* PropertyViewController.m */; };
+		8BA8BD4F22D331BA0033F2E1 /* PropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD4D22D331BA0033F2E1 /* PropertyViewController.xib */; };
+		8BA8BD5322D33C4F0033F2E1 /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5122D33C4F0033F2E1 /* CAKeyframeAnimationViewController.m */; };
+		8BA8BD5422D33C4F0033F2E1 /* CAKeyframeAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5222D33C4F0033F2E1 /* CAKeyframeAnimationViewController.xib */; };
+		8BA8BD5822D41F540033F2E1 /* Transform_RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5622D41F540033F2E1 /* Transform_RotationViewController.m */; };
+		8BA8BD5922D41F540033F2E1 /* Transform_RotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5722D41F540033F2E1 /* Transform_RotationViewController.xib */; };
+		8BA8BD5D22D428850033F2E1 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5B22D428850033F2E1 /* GroupViewController.m */; };
+		8BA8BD5E22D428850033F2E1 /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5C22D428850033F2E1 /* GroupViewController.xib */; };
+		8BBBCCA622D2ECD50071AB85 /* LayerActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBCCA422D2ECD50071AB85 /* LayerActionViewController.m */; };
+		8BBBCCA722D2ECD50071AB85 /* LayerActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBBCCA522D2ECD50071AB85 /* LayerActionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +78,9 @@
 		8B10CFF122CDDFB600D92300 /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
 		8B10CFF222CDDFB600D92300 /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
 		8B10CFF322CDDFB600D92300 /* CAEmitterLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAEmitterLayerViewController.xib; sourceTree = "<group>"; };
+		8B10CFF822CDF1DB00D92300 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		8B10CFF922CDF1DB00D92300 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		8B10CFFA22CDF1DB00D92300 /* AnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
 		8B801ED222C4ADC70072649D /* RootViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewViewController.h; sourceTree = "<group>"; };
 		8B801ED322C4ADC70072649D /* RootViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewViewController.m; sourceTree = "<group>"; };
 		8B801ED722C4B2430072649D /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
@@ -125,6 +140,21 @@
 		8B8F7DD0215F67A600628A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B8F7DD1215F67A600628A9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B8F7DD9215F67EE00628A9B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BA8BD4B22D331BA0033F2E1 /* PropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyViewController.h; sourceTree = "<group>"; };
+		8BA8BD4C22D331BA0033F2E1 /* PropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyViewController.m; sourceTree = "<group>"; };
+		8BA8BD4D22D331BA0033F2E1 /* PropertyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertyViewController.xib; sourceTree = "<group>"; };
+		8BA8BD5022D33C4F0033F2E1 /* CAKeyframeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		8BA8BD5122D33C4F0033F2E1 /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
+		8BA8BD5222D33C4F0033F2E1 /* CAKeyframeAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAKeyframeAnimationViewController.xib; sourceTree = "<group>"; };
+		8BA8BD5522D41F540033F2E1 /* Transform_RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform_RotationViewController.h; sourceTree = "<group>"; };
+		8BA8BD5622D41F540033F2E1 /* Transform_RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform_RotationViewController.m; sourceTree = "<group>"; };
+		8BA8BD5722D41F540033F2E1 /* Transform_RotationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Transform_RotationViewController.xib; sourceTree = "<group>"; };
+		8BA8BD5A22D428850033F2E1 /* GroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		8BA8BD5B22D428850033F2E1 /* GroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
+		8BA8BD5C22D428850033F2E1 /* GroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
+		8BBBCCA322D2ECD50071AB85 /* LayerActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerActionViewController.h; sourceTree = "<group>"; };
+		8BBBCCA422D2ECD50071AB85 /* LayerActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerActionViewController.m; sourceTree = "<group>"; };
+		8BBBCCA522D2ECD50071AB85 /* LayerActionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerActionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +169,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B10CFF722CDF05800D92300 /* 隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8B10CFF822CDF1DB00D92300 /* AnimationViewController.h */,
+				8B10CFF922CDF1DB00D92300 /* AnimationViewController.m */,
+				8B10CFFA22CDF1DB00D92300 /* AnimationViewController.xib */,
+				8BBBCCA322D2ECD50071AB85 /* LayerActionViewController.h */,
+				8BBBCCA422D2ECD50071AB85 /* LayerActionViewController.m */,
+				8BBBCCA522D2ECD50071AB85 /* LayerActionViewController.xib */,
+			);
+			path = "隐式动画";
+			sourceTree = "<group>";
+		};
 		8B801ED522C4AFC70072649D /* 寄宿图 */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,6 +306,8 @@
 				8B8020BA22C599B90072649D /* 视觉效果 */,
 				8B8020D422C9E2430072649D /* 变换 */,
 				8B8020E422CA03DF0072649D /* 专用图层 */,
+				8B10CFF722CDF05800D92300 /* 隐式动画 */,
+				8BBBCCA822D331160071AB85 /* 显式动画 */,
 				8B8F7DC8215F67A600628A9B /* Main.storyboard */,
 				8B8F7DCD215F67A600628A9B /* LaunchScreen.storyboard */,
 				8B8F7DD0215F67A600628A9B /* Info.plist */,
@@ -277,6 +322,25 @@
 				8B8F7DD9215F67EE00628A9B /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BBBCCA822D331160071AB85 /* 显式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8BA8BD4B22D331BA0033F2E1 /* PropertyViewController.h */,
+				8BA8BD4C22D331BA0033F2E1 /* PropertyViewController.m */,
+				8BA8BD4D22D331BA0033F2E1 /* PropertyViewController.xib */,
+				8BA8BD5022D33C4F0033F2E1 /* CAKeyframeAnimationViewController.h */,
+				8BA8BD5122D33C4F0033F2E1 /* CAKeyframeAnimationViewController.m */,
+				8BA8BD5222D33C4F0033F2E1 /* CAKeyframeAnimationViewController.xib */,
+				8BA8BD5522D41F540033F2E1 /* Transform_RotationViewController.h */,
+				8BA8BD5622D41F540033F2E1 /* Transform_RotationViewController.m */,
+				8BA8BD5722D41F540033F2E1 /* Transform_RotationViewController.xib */,
+				8BA8BD5A22D428850033F2E1 /* GroupViewController.h */,
+				8BA8BD5B22D428850033F2E1 /* GroupViewController.m */,
+				8BA8BD5C22D428850033F2E1 /* GroupViewController.xib */,
+			);
+			path = "显式动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,24 +400,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA8BD5E22D428850033F2E1 /* GroupViewController.xib in Resources */,
 				8B8020F822CB49030072649D /* CAGradientLayerViewController.xib in Resources */,
 				8B10CFE822CC93E400D92300 /* CAScrollLayerViewController.xib in Resources */,
+				8BBBCCA722D2ECD50071AB85 /* LayerActionViewController.xib in Resources */,
 				8B10CFF022CC9BEA00D92300 /* CATiledLayerViewController.xib in Resources */,
 				8B8020E322C9F5600072649D /* TransformFacesViewController.xib in Resources */,
 				8B8020EE22CAE9EF0072649D /* CATextLayerViewController.xib in Resources */,
 				8B8020BF22C5A33D0072649D /* RadiusViewController.xib in Resources */,
 				8B8020D922C9E2610072649D /* TransformViewController.xib in Resources */,
+				8BA8BD5922D41F540033F2E1 /* Transform_RotationViewController.xib in Resources */,
 				8B8020FD22CB52ED0072649D /* CAReplicatorLayerViewController.xib in Resources */,
 				8B8020F322CB06520072649D /* CATransformLayerViewController.xib in Resources */,
 				8B8020B922C4BCF50072649D /* HitTestViewController.xib in Resources */,
 				8B8020E922CA041B0072649D /* CAShapeLayerViewController.xib in Resources */,
 				8B8020C922C5F46D0072649D /* MaskViewController.xib in Resources */,
+				8B10CFFC22CDF1DB00D92300 /* AnimationViewController.xib in Resources */,
 				8B801EDB22C4B2430072649D /* LockViewController.xib in Resources */,
+				8BA8BD4F22D331BA0033F2E1 /* PropertyViewController.xib in Resources */,
 				8B8F7DCF215F67A600628A9B /* LaunchScreen.storyboard in Resources */,
 				8B10CFF522CDDFB600D92300 /* CAEmitterLayerViewController.xib in Resources */,
 				8B8020DE22C9EB8D0072649D /* Transform3DViewController.xib in Resources */,
 				8B8F7DCC215F67A600628A9B /* Assets.xcassets in Resources */,
 				8B8F7DCA215F67A600628A9B /* Main.storyboard in Resources */,
+				8BA8BD5422D33C4F0033F2E1 /* CAKeyframeAnimationViewController.xib in Resources */,
 				8B8020CE22C994200072649D /* FilterViewController.xib in Resources */,
 				8B8020C422C5A5480072649D /* BorderViewController.xib in Resources */,
 			);
@@ -373,22 +443,28 @@
 				8B8020BE22C5A33D0072649D /* RadiusViewController.m in Sources */,
 				8B8020CD22C994200072649D /* FilterViewController.m in Sources */,
 				8B8020DD22C9EB8D0072649D /* Transform3DViewController.m in Sources */,
+				8BA8BD5822D41F540033F2E1 /* Transform_RotationViewController.m in Sources */,
 				8B10CFE722CC93E400D92300 /* CAScrollLayerViewController.m in Sources */,
 				8B8020D822C9E2610072649D /* TransformViewController.m in Sources */,
+				8BA8BD5322D33C4F0033F2E1 /* CAKeyframeAnimationViewController.m in Sources */,
 				8B8020E822CA041B0072649D /* CAShapeLayerViewController.m in Sources */,
 				8B10CFEF22CC9BEA00D92300 /* CATiledLayerViewController.m in Sources */,
 				8B10CFF422CDDFB600D92300 /* CAEmitterLayerViewController.m in Sources */,
+				8B10CFFB22CDF1DB00D92300 /* AnimationViewController.m in Sources */,
 				8B8020B822C4BCF50072649D /* HitTestViewController.m in Sources */,
 				8B801ED422C4ADC70072649D /* RootViewViewController.m in Sources */,
 				8B801EDA22C4B2430072649D /* LockViewController.m in Sources */,
+				8BA8BD5D22D428850033F2E1 /* GroupViewController.m in Sources */,
 				8B80210022CB58E80072649D /* CAReplicatorLayerView.m in Sources */,
 				8B8F7DC7215F67A600628A9B /* ViewController.m in Sources */,
 				8B8F7DD2215F67A600628A9B /* main.m in Sources */,
 				8B8020ED22CAE9EF0072649D /* CATextLayerViewController.m in Sources */,
 				8B8F7DC4215F67A600628A9B /* AppDelegate.m in Sources */,
 				8B8020C322C5A5480072649D /* BorderViewController.m in Sources */,
+				8BBBCCA622D2ECD50071AB85 /* LayerActionViewController.m in Sources */,
 				8B8020E222C9F5600072649D /* TransformFacesViewController.m in Sources */,
 				8B8020F722CB49030072649D /* CAGradientLayerViewController.m in Sources */,
+				8BA8BD4E22D331BA0033F2E1 /* PropertyViewController.m in Sources */,
 				8B8020D222C99DEE0072649D /* OpacityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

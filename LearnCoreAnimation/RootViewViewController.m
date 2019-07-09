@@ -79,7 +79,12 @@
                              @{@"title":@"专用图层-CAScrollLayer",@"class":@"CAScrollLayerViewController"},
                              @{@"title":@"专用图层-CATiledLayer",@"class":@"CATiledLayerViewController"},
                              @{@"title":@"专用图层-CAEmitterLayer",@"class":@"CAEmitterLayerViewController"},
-
+                             @{@"title":@"隐式动画-事务",@"class":@"AnimationViewController"},
+                             @{@"title":@"隐式动画-图层行为/呈现与模型",@"class":@"LayerActionViewController"},
+                             @{@"title":@"显式动画-属性动画",@"class":@"PropertyViewController"},
+                             @{@"title":@"显式动画-属性动画-关键帧动画",@"class":@"CAKeyframeAnimationViewController"},
+                             @{@"title":@"显式动画-属性动画-虚拟属性",@"class":@"Transform_RotationViewController"},
+                             @{@"title":@"显式动画-组动画",@"class":@"GroupViewController"},
 
         
                              ];
