@@ -62,6 +62,14 @@
 		8BA8BD5922D41F540033F2E1 /* Transform_RotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5722D41F540033F2E1 /* Transform_RotationViewController.xib */; };
 		8BA8BD5D22D428850033F2E1 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5B22D428850033F2E1 /* GroupViewController.m */; };
 		8BA8BD5E22D428850033F2E1 /* GroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD5C22D428850033F2E1 /* GroupViewController.xib */; };
+		8BA8BD6222D468910033F2E1 /* TransitionFadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD6022D468910033F2E1 /* TransitionFadeViewController.m */; };
+		8BA8BD6322D468910033F2E1 /* TransitionFadeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD6122D468910033F2E1 /* TransitionFadeViewController.xib */; };
+		8BA8BD6722D4704B0033F2E1 /* RemoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD6522D4704B0033F2E1 /* RemoveViewController.m */; };
+		8BA8BD6822D4704B0033F2E1 /* RemoveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD6622D4704B0033F2E1 /* RemoveViewController.xib */; };
+		8BA8BD6D22D477880033F2E1 /* RepeatCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD6B22D477880033F2E1 /* RepeatCountViewController.m */; };
+		8BA8BD6E22D477880033F2E1 /* RepeatCountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD6C22D477880033F2E1 /* RepeatCountViewController.xib */; };
+		8BA8BD7222D47EAA0033F2E1 /* TimeOffsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA8BD7022D47EAA0033F2E1 /* TimeOffsetViewController.m */; };
+		8BA8BD7322D47EAA0033F2E1 /* TimeOffsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BA8BD7122D47EAA0033F2E1 /* TimeOffsetViewController.xib */; };
 		8BBBCCA622D2ECD50071AB85 /* LayerActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBCCA422D2ECD50071AB85 /* LayerActionViewController.m */; };
 		8BBBCCA722D2ECD50071AB85 /* LayerActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BBBCCA522D2ECD50071AB85 /* LayerActionViewController.xib */; };
 /* End PBXBuildFile section */
@@ -152,6 +160,18 @@
 		8BA8BD5A22D428850033F2E1 /* GroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
 		8BA8BD5B22D428850033F2E1 /* GroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 		8BA8BD5C22D428850033F2E1 /* GroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupViewController.xib; sourceTree = "<group>"; };
+		8BA8BD5F22D468910033F2E1 /* TransitionFadeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionFadeViewController.h; sourceTree = "<group>"; };
+		8BA8BD6022D468910033F2E1 /* TransitionFadeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionFadeViewController.m; sourceTree = "<group>"; };
+		8BA8BD6122D468910033F2E1 /* TransitionFadeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransitionFadeViewController.xib; sourceTree = "<group>"; };
+		8BA8BD6422D4704B0033F2E1 /* RemoveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveViewController.h; sourceTree = "<group>"; };
+		8BA8BD6522D4704B0033F2E1 /* RemoveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveViewController.m; sourceTree = "<group>"; };
+		8BA8BD6622D4704B0033F2E1 /* RemoveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemoveViewController.xib; sourceTree = "<group>"; };
+		8BA8BD6A22D477880033F2E1 /* RepeatCountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatCountViewController.h; sourceTree = "<group>"; };
+		8BA8BD6B22D477880033F2E1 /* RepeatCountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatCountViewController.m; sourceTree = "<group>"; };
+		8BA8BD6C22D477880033F2E1 /* RepeatCountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepeatCountViewController.xib; sourceTree = "<group>"; };
+		8BA8BD6F22D47EAA0033F2E1 /* TimeOffsetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeOffsetViewController.h; sourceTree = "<group>"; };
+		8BA8BD7022D47EAA0033F2E1 /* TimeOffsetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeOffsetViewController.m; sourceTree = "<group>"; };
+		8BA8BD7122D47EAA0033F2E1 /* TimeOffsetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeOffsetViewController.xib; sourceTree = "<group>"; };
 		8BBBCCA322D2ECD50071AB85 /* LayerActionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayerActionViewController.h; sourceTree = "<group>"; };
 		8BBBCCA422D2ECD50071AB85 /* LayerActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayerActionViewController.m; sourceTree = "<group>"; };
 		8BBBCCA522D2ECD50071AB85 /* LayerActionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerActionViewController.xib; sourceTree = "<group>"; };
@@ -308,6 +328,7 @@
 				8B8020E422CA03DF0072649D /* 专用图层 */,
 				8B10CFF722CDF05800D92300 /* 隐式动画 */,
 				8BBBCCA822D331160071AB85 /* 显式动画 */,
+				8BA8BD6922D477550033F2E1 /* 图层时间 */,
 				8B8F7DC8215F67A600628A9B /* Main.storyboard */,
 				8B8F7DCD215F67A600628A9B /* LaunchScreen.storyboard */,
 				8B8F7DD0215F67A600628A9B /* Info.plist */,
@@ -322,6 +343,19 @@
 				8B8F7DD9215F67EE00628A9B /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BA8BD6922D477550033F2E1 /* 图层时间 */ = {
+			isa = PBXGroup;
+			children = (
+				8BA8BD6A22D477880033F2E1 /* RepeatCountViewController.h */,
+				8BA8BD6B22D477880033F2E1 /* RepeatCountViewController.m */,
+				8BA8BD6C22D477880033F2E1 /* RepeatCountViewController.xib */,
+				8BA8BD6F22D47EAA0033F2E1 /* TimeOffsetViewController.h */,
+				8BA8BD7022D47EAA0033F2E1 /* TimeOffsetViewController.m */,
+				8BA8BD7122D47EAA0033F2E1 /* TimeOffsetViewController.xib */,
+			);
+			path = "图层时间";
 			sourceTree = "<group>";
 		};
 		8BBBCCA822D331160071AB85 /* 显式动画 */ = {
@@ -339,6 +373,12 @@
 				8BA8BD5A22D428850033F2E1 /* GroupViewController.h */,
 				8BA8BD5B22D428850033F2E1 /* GroupViewController.m */,
 				8BA8BD5C22D428850033F2E1 /* GroupViewController.xib */,
+				8BA8BD5F22D468910033F2E1 /* TransitionFadeViewController.h */,
+				8BA8BD6022D468910033F2E1 /* TransitionFadeViewController.m */,
+				8BA8BD6122D468910033F2E1 /* TransitionFadeViewController.xib */,
+				8BA8BD6422D4704B0033F2E1 /* RemoveViewController.h */,
+				8BA8BD6522D4704B0033F2E1 /* RemoveViewController.m */,
+				8BA8BD6622D4704B0033F2E1 /* RemoveViewController.xib */,
 			);
 			path = "显式动画";
 			sourceTree = "<group>";
@@ -406,12 +446,16 @@
 				8BBBCCA722D2ECD50071AB85 /* LayerActionViewController.xib in Resources */,
 				8B10CFF022CC9BEA00D92300 /* CATiledLayerViewController.xib in Resources */,
 				8B8020E322C9F5600072649D /* TransformFacesViewController.xib in Resources */,
+				8BA8BD7322D47EAA0033F2E1 /* TimeOffsetViewController.xib in Resources */,
+				8BA8BD6822D4704B0033F2E1 /* RemoveViewController.xib in Resources */,
 				8B8020EE22CAE9EF0072649D /* CATextLayerViewController.xib in Resources */,
 				8B8020BF22C5A33D0072649D /* RadiusViewController.xib in Resources */,
+				8BA8BD6322D468910033F2E1 /* TransitionFadeViewController.xib in Resources */,
 				8B8020D922C9E2610072649D /* TransformViewController.xib in Resources */,
 				8BA8BD5922D41F540033F2E1 /* Transform_RotationViewController.xib in Resources */,
 				8B8020FD22CB52ED0072649D /* CAReplicatorLayerViewController.xib in Resources */,
 				8B8020F322CB06520072649D /* CATransformLayerViewController.xib in Resources */,
+				8BA8BD6E22D477880033F2E1 /* RepeatCountViewController.xib in Resources */,
 				8B8020B922C4BCF50072649D /* HitTestViewController.xib in Resources */,
 				8B8020E922CA041B0072649D /* CAShapeLayerViewController.xib in Resources */,
 				8B8020C922C5F46D0072649D /* MaskViewController.xib in Resources */,
@@ -437,8 +481,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8020C822C5F46D0072649D /* MaskViewController.m in Sources */,
+				8BA8BD6222D468910033F2E1 /* TransitionFadeViewController.m in Sources */,
 				8B8020FC22CB52ED0072649D /* CAReplicatorLayerViewController.m in Sources */,
 				8B8020F222CB06520072649D /* CATransformLayerViewController.m in Sources */,
+				8BA8BD7222D47EAA0033F2E1 /* TimeOffsetViewController.m in Sources */,
 				8B10CFEB22CC940200D92300 /* CAScrollLayerView.m in Sources */,
 				8B8020BE22C5A33D0072649D /* RadiusViewController.m in Sources */,
 				8B8020CD22C994200072649D /* FilterViewController.m in Sources */,
@@ -464,7 +510,9 @@
 				8BBBCCA622D2ECD50071AB85 /* LayerActionViewController.m in Sources */,
 				8B8020E222C9F5600072649D /* TransformFacesViewController.m in Sources */,
 				8B8020F722CB49030072649D /* CAGradientLayerViewController.m in Sources */,
+				8BA8BD6D22D477880033F2E1 /* RepeatCountViewController.m in Sources */,
 				8BA8BD4E22D331BA0033F2E1 /* PropertyViewController.m in Sources */,
+				8BA8BD6722D4704B0033F2E1 /* RemoveViewController.m in Sources */,
 				8B8020D222C99DEE0072649D /* OpacityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

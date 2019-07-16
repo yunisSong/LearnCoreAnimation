@@ -85,6 +85,11 @@
                              @{@"title":@"显式动画-属性动画-关键帧动画",@"class":@"CAKeyframeAnimationViewController"},
                              @{@"title":@"显式动画-属性动画-虚拟属性",@"class":@"Transform_RotationViewController"},
                              @{@"title":@"显式动画-组动画",@"class":@"GroupViewController"},
+                             @{@"title":@"显式动画-过渡",@"class":@"TransitionFadeViewController"},
+                             @{@"title":@"显式动画-移除动画",@"class":@"RemoveViewController"},
+                             @{@"title":@"图层时间-CAMediaTiming-持续和重复",@"class":@"RepeatCountViewController"},
+                             @{@"title":@"图层时间-CAMediaTiming-相对时间",@"class":@"TimeOffsetViewController"},
+
 
         
                              ];
